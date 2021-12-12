@@ -1,0 +1,62 @@
+h1, p {
+    text-align: center;
+    color: #ffffff;
+}
+
+/* Size of all cards - Taille des cards */
+img {
+    width: 8rem;
+    height: 8rem;
+    border: 0.1rem solid #ffffff;
+}
+
+/* Background - Fond */
+#container {
+    background-color: #000000;
+}
+
+/* Container all cards - Conteneur des cards */
+#screen, .screenControl, .score {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 35rem;
+    margin: auto;
+}
+
+.screenControl, .score {
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.score {
+    display: block;
+    text-align: center;
+}
+
+/* Buttons propriety - Les proprietes des 2 buttons */
+.button {
+    background-color: #ec7063;
+    color: #ffffff;
+    border: none;
+    text-decoration: none;
+    padding: 0.8rem 1.5rem;
+    margin-left: 2rem;
+    font-size: 1.2rem;
+  }
+
+/* Size of mobiles  -  Adaptation pour les mobiles */
+  @media all and (max-width:768px) { 
+    #screen, .screenControl, .score {
+        justify-content: center;
+        width: 20rem;
+    }
+
+    .button {
+        background-color: #ec7063;
+        color: #ffffff;
+        border: none;
+        text-decoration: none;
+        font-size: 1rem;
+      }
+}
