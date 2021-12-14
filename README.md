@@ -4,6 +4,8 @@
 
 ![](./assets/img/readme.gif)
 
+![](picture.png)
+
 ### Langage utilisé:
 <table>
 <tr>
