@@ -1,2 +1,12 @@
 # Memory_Game_JS
-Memory Game Javascript
+
+## Jeu Memory Game
+
+![](./assets/img/readme.gif)
+
+### Langage utilisé:
+<table>
+<tr>
+<td>Javascript</td>
+</tr>
+</table>
